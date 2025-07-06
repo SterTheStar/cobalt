@@ -1,0 +1,161 @@
+{
+    "page.appearance": "aparência",
+    "page.privacy": "privacidade",
+    "page.video": "vídeo",
+    "page.audio": "áudio",
+    "page.metadata": "metadados",
+    "page.advanced": "avançado",
+    "page.debug": "informações para nerds",
+    "page.instances": "instâncias",
+    "page.local": "processamento local",
+    "page.accessibility": "acessibilidade",
+
+    "theme": "tema",
+    "theme.auto": "auto",
+    "theme.light": "claro",
+    "theme.dark": "escuro",
+    "theme.description": "o tema automático alterna entre temas claro e escuro conforme o modo de exibição do seu dispositivo.",
+
+    "video.quality": "qualidade do vídeo",
+    "video.quality.max": "8k+",
+    "video.quality.2160": "4k",
+    "video.quality.1440": "1440p",
+    "video.quality.1080": "1080p",
+    "video.quality.720": "720p",
+    "video.quality.480": "480p",
+    "video.quality.360": "360p",
+    "video.quality.240": "240p",
+    "video.quality.144": "144p",
+    "video.quality.description": "se a qualidade de vídeo preferida não estiver disponível, a próxima melhor será escolhida.",
+
+    "video.youtube.codec": "codec de vídeo youtube preferido",
+    "video.youtube.codec.description": "h264: melhor compatibilidade, qualidade média. qualidade máxima é 1080p.\nav1: melhor qualidade e eficiência. suporta 8k e HDR.\nvp9: mesma qualidade do av1, mas o arquivo é ~2x maior. suporta 4k e HDR.\n\nav1 e vp9 não são amplamente suportados, você pode precisar de software adicional para reproduzir/editar. cobalt escolhe o próximo melhor codec se o preferido não estiver disponível.",
+
+    "video.youtube.container": "container de arquivo youtube",
+    "video.youtube.container.description": "quando 'auto' está selecionado, cobalt escolhe automaticamente o melhor container conforme o codec: mp4 para h264; webm para vp9/av1.",
+
+    "video.youtube.hls": "formatos hls do youtube",
+    "video.youtube.hls.title": "preferir hls para vídeo e áudio",
+    "video.youtube.hls.description": "apenas codecs h264 e vp9 estão disponíveis nesse modo. codec de áudio original é aac, re-encodificado para compatibilidade; qualidade do áudio pode ser ligeiramente inferior ao não-HLS.\n\nessa opção é experimental e pode mudar ou ser removida no futuro.",
+
+    "video.twitter.gif": "twitter/x",
+    "video.twitter.gif.title": "converter vídeos em loop para GIF",
+    "video.twitter.gif.description": "conversão para GIF é ineficiente, o arquivo convertido pode ser muito grande e de baixa qualidade.",
+
+    "video.h265": "codec de vídeo de alta eficiência",
+    "video.h265.title": "permitir h265 para vídeos",
+    "video.h265.description": "permite baixar vídeos de plataformas como tiktok e xiaohongshu em qualidade superior, com custo de compatibilidade.",
+
+    "audio.format": "formato de áudio",
+    "audio.format.best": "melhor",
+    "audio.format.mp3": "mp3",
+    "audio.format.ogg": "ogg",
+    "audio.format.wav": "wav",
+    "audio.format.opus": "opus",
+    "audio.format.description": "todos os formatos, exceto 'melhor', são convertidos do formato original, podendo haver perda de qualidade. ao escolher 'melhor', o áudio é mantido no formato original sempre que possível.",
+
+    "audio.bitrate": "taxa de bits do áudio",
+    "audio.bitrate.kbps": "kb/s",
+    "audio.bitrate.description": "taxa de bits é aplicada somente ao converter áudio para formatos com perda. cobalt não melhora a qualidade do áudio original, portanto escolher taxa acima de 128kbps pode aumentar o tamanho sem diferença audível. qualidade percebida pode variar conforme o formato.",
+
+    "audio.youtube.dub": "faixa de áudio dublada no youtube",
+    "audio.youtube.dub.title": "idioma de dublagem preferido",
+    "audio.youtube.dub.description": "cobalt usará a faixa de áudio dublada no idioma selecionado, se disponível. caso contrário, usará o original.",
+    "youtube.dub.original": "original",
+
+    "subtitles": "legendas",
+    "subtitles.title": "idioma preferido para legendas",
+    "subtitles.description": "cobalt adicionará legendas no idioma preferido se disponíveis.\n\nalguns serviços não possuem seleção de idioma, nesse caso cobalt adicionará a única faixa disponível se algum idioma estiver selecionado.",
+    "subtitles.none": "nenhuma",
+
+    "audio.youtube.better_audio": "qualidade de áudio do youtube",
+    "audio.youtube.better_audio.title": "preferir melhor qualidade",
+    "audio.youtube.better_audio.description": "cobalt tentará selecionar a melhor qualidade de áudio no modo áudio. pode não estar disponível dependendo da resposta do youtube, tráfego atual e estado do servidor. instâncias customizadas podem não suportar essa opção.",
+
+    "audio.tiktok.original": "tiktok",
+    "audio.tiktok.original.title": "baixar som original",
+    "audio.tiktok.original.description": "cobalt baixará o som do vídeo sem alterações feitas pelo autor da publicação.",
+
+    "metadata.filename": "estilo do nome do arquivo",
+    "metadata.filename.classic": "clássico",
+    "metadata.filename.basic": "básico",
+    "metadata.filename.pretty": "bonito",
+    "metadata.filename.nerdy": "nerd",
+    "metadata.filename.description": "o estilo do nome do arquivo será usado apenas para arquivos via túnel do cobalt. alguns serviços não suportam estilos diferentes de clássico.",
+
+    "metadata.filename.preview.video": "Título do Vídeo - Autor do Vídeo",
+    "metadata.filename.preview.audio": "Título do Áudio - Autor do Áudio",
+    "filename.preview_desc.video": "pré-visualização do arquivo de vídeo",
+    "filename.preview_desc.audio": "pré-visualização do arquivo de áudio",
+
+    "metadata.file": "metadados do arquivo",
+    "metadata.disable.title": "desabilitar metadados do arquivo",
+    "metadata.disable.description": "título, artista e outras informações não serão adicionados ao arquivo.",
+
+    "saving.title": "método de salvamento",
+    "saving.ask": "perguntar",
+    "saving.download": "baixar",
+    "saving.share": "compartilhar",
+    "saving.copy": "copiar",
+    "saving.description": "forma preferida para salvar o arquivo ou link do cobalt. se o método preferido não estiver disponível ou algo der errado, cobalt perguntará o que fazer em seguida.",
+
+    "accessibility.visual": "visual",
+    "accessibility.haptics": "hápticos",
+    "accessibility.behavior": "comportamento",
+
+    "accessibility.transparency.title": "reduzir transparência visual",
+    "accessibility.transparency.description": "a transparência das superfícies será reduzida e todos os efeitos de desfoque desativados. pode melhorar o desempenho da interface em dispositivos menos potentes.",
+    "accessibility.motion.title": "reduzir movimento",
+    "accessibility.motion.description": "animações e transições serão desativadas sempre que possível.",
+    "accessibility.haptics.title": "desativar hápticos",
+    "accessibility.haptics.description": "todos os efeitos hápticos serão desativados.",
+    "accessibility.auto_queue.title": "não abrir a fila automaticamente",
+    "accessibility.auto_queue.description": "a fila de processamento não será aberta automaticamente ao adicionar um novo item. o progresso ainda será exibido e você poderá abri-la manualmente.",
+
+    "language": "idioma",
+    "language.auto.title": "seleção automática",
+    "language.auto.description": "cobalt usará o idioma padrão do seu navegador, se disponível a tradução. caso contrário, usará inglês.",
+    "language.preferred.title": "idioma preferido",
+    "language.preferred.description": "este idioma será usado quando a seleção automática estiver desabilitada. qualquer texto não traduzido será exibido em inglês.\n\nalguns idiomas usam traduções feitas pela comunidade e podem estar incompletos ou imprecisos.",
+
+    "privacy.analytics": "análise anônima de tráfego",
+    "privacy.analytics.title": "não contribuir para a análise",
+    "privacy.analytics.description": "análise anônima de tráfego é usada para obter o número aproximado de usuários ativos do cobalt. nenhuma informação identificável é armazenada. todos os dados processados são anonimizados e agregados.\n\nusamos uma instância plausível auto-hospedada, que não usa cookies e está em conformidade com GDPR, CCPA e PECR.",
+    "privacy.analytics.learnmore": "saiba mais sobre o foco em privacidade do plausible.",
+
+    "privacy.tunnel": "túnel",
+    "privacy.tunnel.title": "sempre usar túnel para arquivos",
+    "privacy.tunnel.description": "cobalt ocultará seu endereço IP, informações do navegador e contornará restrições locais de rede. quando ativado, os arquivos terão nomes legíveis, que normalmente seriam ilegíveis.",
+
+    "advanced.debug": "debug",
+    "advanced.debug.title": "ativar recursos para nerds",
+    "advanced.debug.description": "fornece fácil acesso a informações do app úteis para depuração. ativar isso não altera nenhuma funcionalidade do cobalt.",
+
+    "processing.community": "instâncias comunitárias",
+    "processing.enable_custom.title": "usar um servidor de processamento personalizado",
+    "processing.enable_custom.description": "cobalt usará uma instância personalizada se você desejar. apesar das medidas de segurança, não nos responsabilizamos por danos causados por instâncias comunitárias, pois não temos controle sobre elas.\n\nseja cauteloso com as instâncias que usa e certifique-se de que são hospedadas por pessoas confiáveis.",
+
+    "processing.access_key": "chave de acesso da instância",
+    "processing.access_key.title": "usar uma chave de acesso da instância",
+    "processing.access_key.description": "cobalt usará essa chave para fazer requisições à instância de processamento em vez de outros métodos de autenticação. certifique-se que a instância suporta chaves API.",
+
+    "processing.custom_instance.input.alt_text": "domínio da instância personalizada",
+    "processing.access_key.input.alt_text": "chave de acesso u-u-i-d",
+
+    "advanced.settings_data": "dados das configurações",
+    "advanced.local_storage": "armazenamento local",
+
+    "local.saving": "processamento local de mídia",
+    "local.saving.description": "ao baixar mídia, remuxing e transcodificação serão feitos no dispositivo, não na nuvem. você verá progresso detalhado na fila de processamento.\n\ndesabilitado: processamento local não será usado. instâncias podem impor processamento local, então esta opção pode não ter efeito.\npreferido: mídia que requer processamento extra será baixada via fila de processamento; o resto será baixado pelo gerenciador de downloads do navegador.\nforçado: toda mídia será sempre baixada e processada pela fila de processamento.\n\nrecursos exclusivos locais não são afetados por esta configuração, eles sempre rodam localmente.",
+    "local.saving.disabled": "desabilitado",
+    "local.saving.preferred": "preferido",
+    "local.saving.forced": "forçado",
+
+    "local.webcodecs": "webcodecs",
+    "local.webcodecs.title": "usar webcodecs para processamento local",
+    "local.webcodecs.description": "ao decodificar ou codificar arquivos, cobalt tentará usar webcodecs. esse recurso permite processamento acelerado por GPU, tornando decodificação e codificação muito mais rápidas.\n\na disponibilidade e estabilidade dependem do dispositivo e navegador. pode apresentar falhas ou funcionar incorretamente.",
+
+    "tabs": "navegação",
+    "tabs.hide_remux": "esconder a aba remux",
+    "tabs.hide_remux.description": "se você não usa a ferramenta remux, pode escondê-la da barra de navegação."
+}

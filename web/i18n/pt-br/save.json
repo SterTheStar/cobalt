@@ -1,0 +1,27 @@
+{
+    "paste": "colar",
+    "paste.long": "colar e baixar",
+    "auto": "auto",
+    "audio": "áudio",
+    "mute": "mudo",
+    "input.placeholder": "cole o link aqui",
+    "terms.note.agreement": "ao continuar, você concorda com",
+    "terms.note.link": "termos e ética de uso",
+    "services.title": "serviços suportados",
+    "services.title_show": "mostrar serviços suportados",
+    "services.title_hide": "esconder serviços suportados",
+    "services.disclaimer": "o cobalt não é afiliado a nenhum dos serviços listados acima.",
+
+    "tutorial.title": "como salvar no ios?",
+    "tutorial.intro": "para salvar mídia convenientemente no ios, você precisará usar um atalho siri companheiro da folha de compartilhamento.",
+    "tutorial.step.1": "adicione os atalhos siri companheiros:",
+    "tutorial.step.2": "pressione o botão \"compartilhar\" no diálogo de salvar do cobalt.",
+    "tutorial.step.3": "selecione o respectivo atalho na folha de compartilhamento.",
+    "tutorial.outro": "esses atalhos funcionarão somente no app cobalt, compartilhar links de outros apps não funcionará.",
+    "tutorial.shortcut.photos": "para fotos",
+    "tutorial.shortcut.files": "para arquivos",
+
+    "label.community_instance": "instância comunitária",
+
+    "tooltip.captcha": "o cloudflare turnstile está verificando se você não é um robô, por favor, aguarde!"
+}
